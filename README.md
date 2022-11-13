@@ -1,3 +1,9 @@
+# Warning!
+
+## This is a development build of [gitmoji-changelog](https://github.com/frinyvonnick/gitmoji-changelog) for personal use.
+
+<br /><br /><br />
+
 ![gitmoji-changelog logo](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/logo.png)
 
 <p>
@@ -12,7 +18,6 @@
 
 > Generate changelog for repositories using [gitmoji](https://gitmoji.carloscuesta.me/) commits convention.
 
-
 ![gitmoji-changelog usage example](https://raw.githubusercontent.com/frinyvonnick/gitmoji-changelog/master/misc/example.gif)
 
 ## 🚀 Usage
@@ -22,11 +27,13 @@ Make sure you have [npx](https://www.npmjs.com/package/npx) installed (`npx` is 
 Run the following command at the root of your project and answer questions. `gitmoji-changelog` uses a [preset system](https://docs.gitmoji-changelog.dev/#/?id=%e2%9a%99%ef%b8%8f-presets) to handle different type of project. The preset used by default is the Node.js one that look for project's information in the `package.json` file.
 
 with npx:
+
 ```sh
 npx gitmoji-changelog
 ```
 
 with npm:
+
 ```sh
 npm install -g gitmoji-changelog
 
@@ -37,6 +44,7 @@ gitmoji-changelog
 It exists a generic preset that works for every kind of project. It looks for information in a `.gitmoji-changelogrc` file at the root of your project. This file must contain three mandatory properties: `name`, `description` and `version`.
 
 .gitmoji-changelogrc:
+
 ```json
 {
   "project": {
@@ -61,8 +69,8 @@ npx gitmoji-changelog --preset generic
 
 👤 **Yvonnick FRIN (https://yvonnickfrin.dev)**
 
-* Twitter: [@YvonnickFrin](https://twitter.com/YvonnickFrin)
-* Github: [@frinyvonnick](https://github.com/frinyvonnick)
+- Twitter: [@YvonnickFrin](https://twitter.com/YvonnickFrin)
+- Github: [@frinyvonnick](https://github.com/frinyvonnick)
 
 ## 🤝 Contributing
 
@@ -78,8 +86,7 @@ You also can add a badge in the README.md of your repository to promote `gitmoji
 [![gitmoji-changelog](https://img.shields.io/badge/Changelog-gitmoji-brightgreen.svg)](https://github.com/frinyvonnick/gitmoji-changelog)
 ```
 
-It will add this badge:  [![gitmoji-changelog](https://img.shields.io/badge/Changelog-gitmoji-brightgreen.svg)](https://github.com/frinyvonnick/gitmoji-changelog)
-
+It will add this badge: [![gitmoji-changelog](https://img.shields.io/badge/Changelog-gitmoji-brightgreen.svg)](https://github.com/frinyvonnick/gitmoji-changelog)
 
 ## ✨ Contributors
 
@@ -130,5 +137,6 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 Copyright © 2020 [Yvonnick FRIN (https://github.com/frinyvonnick)](https://github.com/frinyvonnick).<br />
 This project is [MIT](https://github.com/frinyvonnick/gitmoji-changelog/blob/master/LICENSE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
