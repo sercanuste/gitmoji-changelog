@@ -1,5 +1,5 @@
 {
-  "name": "@gitmoji-changelog/markdown",
+  "name": "@sercanuste/gitmoji-changelog-markdown",
   "version": "2.3.0",
   "description": "Gitmoji Changelog markdown formatter",
   "main": "src/index.js",
