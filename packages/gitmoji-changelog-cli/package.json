@@ -1,6 +1,6 @@
 {
   "name": "@sercanuste/gitmoji-changelog",
-  "version": "2.4.0-alpha.0",
+  "version": "2.4.0",
   "keywords": [
     "gitmoji",
     "generate",
@@ -31,8 +31,8 @@
   },
   "homepage": "https://github.com/sercanuste/gitmoji-changelog#readme",
   "dependencies": {
-    "@sercanuste/gitmoji-changelog-core": "^2.4.0-alpha.0",
-    "@sercanuste/gitmoji-changelog-markdown": "^2.4.0-alpha.0",
+    "@sercanuste/gitmoji-changelog-core": "^2.4.0",
+    "@sercanuste/gitmoji-changelog-markdown": "^2.4.0",
     "hosted-git-info": "^3.0.2",
     "immutadot": "^1.0.0",
     "inquirer": "^6.3.1",
