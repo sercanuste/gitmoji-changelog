@@ -18,7 +18,7 @@
     "node": ">=10"
   },
   "bin": {
-    "@sercanuste/gitmoji-changelog": "./src/index.js"
+    "gitmoji-changelog": "./src/index.js"
   },
   "repository": {
     "type": "git",
