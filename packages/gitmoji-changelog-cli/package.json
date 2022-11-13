@@ -18,7 +18,7 @@
     "node": ">=10"
   },
   "bin": {
-    "gitmoji-changelog": "./src/index.js"
+    "@sercanuste/gitmoji-changelog": "./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -31,8 +31,8 @@
   },
   "homepage": "https://github.com/sercanuste/gitmoji-changelog#readme",
   "dependencies": {
-    "@gitmoji-changelog/core": "^2.2.0",
-    "@gitmoji-changelog/markdown": "^2.2.0",
+    "@sercanuste/gitmoji-changelog-core": "^2.4.0-alpha.0",
+    "@sercanuste/gitmoji-changelog-markdown": "^2.4.0-alpha.0",
     "hosted-git-info": "^3.0.2",
     "immutadot": "^1.0.0",
     "inquirer": "^6.3.1",

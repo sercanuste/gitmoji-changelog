@@ -13,17 +13,17 @@ describe('getRepositoryInfo', () => {
   })
 
   it('should extract GitHub info', async () => {
-    gitRemoteOriginUrl.mockImplementationOnce(() => Promise.resolve('git+https://github.com/frinyvonnick/gitmoji-changelog.git'))
+    gitRemoteOriginUrl.mockImplementationOnce(() => Promise.resolve('git+https://github.com/sercanuste/gitmoji-changelog.git'))
 
     const result = await getRepositoryInfo()
 
     expect(result).toEqual({
       type: 'github',
       domain: 'github.com',
-      user: 'frinyvonnick',
+      user: 'sercanuste',
       project: 'gitmoji-changelog',
-      url: 'https://github.com/frinyvonnick/gitmoji-changelog',
-      bugsUrl: 'https://github.com/frinyvonnick/gitmoji-changelog/issues',
+      url: 'https://github.com/sercanuste/gitmoji-changelog',
+      bugsUrl: 'https://github.com/sercanuste/gitmoji-changelog/issues',
     })
   })
 

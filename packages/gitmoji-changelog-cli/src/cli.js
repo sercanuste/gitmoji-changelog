@@ -6,8 +6,8 @@ const semver = require('semver')
 const semverCompare = require('semver-compare')
 const rc = require('rc')
 
-const { generateChangelog, logger } = require('@gitmoji-changelog/core')
-const { buildMarkdownFile, getLatestVersion } = require('@gitmoji-changelog/markdown')
+const { generateChangelog, logger } = require('@sercanuste/gitmoji-changelog-core')
+const { buildMarkdownFile, getLatestVersion } = require('@sercanuste/gitmoji-changelog-markdown')
 
 const issueReporter = require('issue-reporter')
 
@@ -19,7 +19,7 @@ async function getGitmojiChangelogLatestVersion() {
   const watchdog = new Promise(resolve => {
     setTimeout(resolve, 500, { version: packageJson.version })
   })
-  const request = libnpm.manifest('gitmoji-changelog@latest')
+  const request = libnpm.manifest('@sercanuste/gitmoji-changelog@latest')
 
   const { version } = await Promise.race([watchdog, request])
 
@@ -106,7 +106,7 @@ async function main(options = {}) {
       const repository = await getRepositoryInfo()
       await issueReporter({
         error: e,
-        user: 'frinyvonnick',
+        user: 'sercanuste',
         repo: 'gitmoji-changelog',
         sections: [
           {

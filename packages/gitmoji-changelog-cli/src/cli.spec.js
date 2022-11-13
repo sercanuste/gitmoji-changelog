@@ -1,4 +1,4 @@
-const { generateChangelog, logger } = require('@gitmoji-changelog/core')
+const { generateChangelog, logger } = require('@sercanuste/gitmoji-changelog-core')
 const { manifest } = require('libnpm')
 const { main } = require('./cli')
 const issueReporter = require('issue-reporter')
@@ -7,7 +7,7 @@ describe('cli', () => {
   const realExitFunction = process.exit
   const options = { preset: 'node' }
   beforeEach(() => {
-    process.exit = jest.fn(() => {})
+    process.exit = jest.fn(() => { })
     jest.clearAllMocks()
   })
   afterEach(() => {
@@ -73,7 +73,7 @@ describe('cli', () => {
   })
 })
 
-jest.mock('@gitmoji-changelog/core', () => ({
+jest.mock('@sercanuste/gitmoji-changelog-core', () => ({
   generateChangelog: jest.fn(),
   logger: {
     start: jest.fn(),
