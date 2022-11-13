@@ -5,14 +5,14 @@
   "description": "Tools for generating changelog based on gitmoji convention https://gitmoji.carloscuesta.me/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frinyvonnick/gitmoji-changelog.git"
+    "url": "git+https://github.com/sercanuste/gitmoji-changelog.git"
   },
   "author": "Yvonnick FRIN (https://github.com/frinyvonnick)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frinyvonnick/gitmoji-changelog/issues"
+    "url": "https://github.com/sercanuste/gitmoji-changelog/issues"
   },
-  "homepage": "https://github.com/frinyvonnick/gitmoji-changelog#readme",
+  "homepage": "https://github.com/sercanuste/gitmoji-changelog#readme",
   "scripts": {
     "test": "jest",
     "test:e2e": "jest --config ./jest.config-e2e.js",
